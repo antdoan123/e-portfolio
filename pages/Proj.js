@@ -32,13 +32,13 @@ export default function Home() {
                         <div className="p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-blue-300 mb-1">C#/ .NET/ LocalDB</h2>
                             <h1 className="text-2xl font-semibold mb-3">Resteraunt Locator</h1>
-                            <p className="leading-relaxed mb-3">A full-stack desktop application that allows users to find a nearby resteruant based on their preferences using Yelp's API.
+                            <p className="leading-relaxed mb-3">A full-stack desktop application that allows users to find a nearby resteruant based on their preferences using Yelp&apos;s API.
                                                             Users will also be prompt to create an account which allows them to have their own unique profile and each account is stored in
                                                             a local databased. The users will also have accessed to their own dashboard. </p>
                             <div className="flex items-center flex-wrap ">
                                 <a className="text-blue-300 inline-flex items-center md:mb-2 lg:mb-0">GitHub
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -56,7 +56,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                <div className="p-4 sm:w-1/2 lg:w-1/3">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                       
                         <div className="p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in">
@@ -68,7 +68,7 @@ export default function Home() {
                             <div className="flex items-center flex-wrap ">
                                 <a className="text-blue-300 inline-flex items-center md:mb-2 lg:mb-0">GitHub
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -93,13 +93,13 @@ export default function Home() {
                             <h2 className="text-base font-medium text-blue-300 mb-1">C# / .NET</h2>
                             <h1 className="text-2xl font-semibold mb-3">Wallpaper Taskbar</h1>
                             <p className="leading-relaxed mb-3">A user interface for desktop backgrounds that displays the current time and date
-                                                            along with a schedule of the user's classes that the user stores in a local databased.
+                                                            along with a schedule of the user&apos;s classes that the user stores in a local databased.
                                                             By clicking on the class name, it will redirect them directly to the zoom link. The user may
                                                             also change the orientation of the GUI. </p>
                             <div className="flex items-center flex-wrap ">
                                 <a className="text-blue-300 inline-flex items-center md:mb-2 lg:mb-0">GitHub
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -130,7 +130,7 @@ export default function Home() {
                             <div className="flex items-center flex-wrap ">
                                 <a className="text-blue-300 inline-flex items-center md:mb-2 lg:mb-0">GitHub
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
