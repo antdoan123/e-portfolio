@@ -15,7 +15,6 @@ export default function Home() {
         <header className="py-6">
             <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="text-blue-700 font-body sm:text-2xl md:text-3xl lg:text-4xl">ANTHONY.DOAN</div>
-                    <script src="Script1.js"></script>
                     <div className="flex space-x-12 items-center text-xl" id="menu">
                         <div>
                             <Link href="/"><a className="p-4 text-blue-600 hover:font-bold">Home</a></Link>

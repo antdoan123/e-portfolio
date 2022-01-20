@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="text-white bg-black pb-12">
-        <header class="py-6">
+        <header className="py-6">
             <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="text-blue-700 font-body sm:text-2xl md:text-3xl lg:text-4xl">ANTHONY.DOAN</div>
                     <div className="flex space-x-12 items-center text-xl" id="menu">
@@ -24,7 +24,7 @@ export default function Home() {
                     </div>
             </div>
                 <div className="py-32 continer flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-ful">
-                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'/>          
+                    <Image src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'/>          
                 </div>
             
         </header>
