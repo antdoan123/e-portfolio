@@ -23,7 +23,7 @@ export default function Home() {
                         </div>
                     </div>
             </div>
-            <div className="py-32 text-blue-400 text-xl ml-12 md:mr-34 lg:mr-92">
+            <div className="py-32 text-blue-400 text-xl ml-8 md:mr-34 lg:mr-92">
                 <div className="continer justify-center items-center mx-auto px-8 sm:px-auto md:px-14 md:flex lg:px-24 lg:flex w-full">
                     <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'/>  
                     <p className="mt-12 ml-2">
