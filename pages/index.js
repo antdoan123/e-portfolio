@@ -14,7 +14,7 @@ export default function Home() {
       <body className="text-white bg-black pb-12">
         <header className="py-6">
             <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 md:flex lg:px-24 w-full">
-                <div className="text-blue-400 font-body md:text-3xl lg:text-4xl">ANTHONY.DOAN</div>
+                <div className="text-blue-400 font-body text-3xl lg:text-4xl">ANTHONY.DOAN</div>
                     <div className="mt-2 flex space-x-12 items-center text-xl" id="menu">
                         <div>
                             <Link href="/"><a className="p-4 text-blue-400 hover:font-bold underline">Home</a></Link>
@@ -23,14 +23,14 @@ export default function Home() {
                         </div>
                     </div>
             </div>
-            <div className="py-32 text-blue-400 text-xl ml-8 md:mr-34 lg:mr-92">
+            <div className="sm:py-24 md:py-32 text-blue-400 text-xl ml-8 md:mr-34 lg:mr-92">
                 <div className="continer justify-center items-center mx-auto px-8 sm:px-auto md:px-14 md:flex lg:px-24 lg:flex w-full">
                     <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'/>  
-                    <p className="mt-12 ml-2">
+                    <p className="mt-10 ml-2">
                         Welcome! My name is Anthony, a 22 years old computer engineering student at Cal Poly Pomona. I enjoy creating full-stack applications and am always looking for ways to improve my programming skills. 
                     </p>
                 </div>
-            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-15 md:px-24 mt-4">
+            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-4">
                 <div className="icons">
                     <a href="https://github.com/antdoan123">
                             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" height="36" width="36" 
