@@ -3,7 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.icons {
+  color: #E5E7EB;
+}
 
 .icons:hover {
   transform: scale(125%);
+  color: #22d3ee;
 }

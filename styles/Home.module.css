@@ -113,4 +113,9 @@
     width: 100%;
     flex-direction: column;
   }
+ 
+  .icons:hover {
+  color: '22d3ee'
+}
+
 }
