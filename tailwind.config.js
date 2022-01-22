@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
         fontFamily: {
-            body:['Dosis']
+            body:['Dosis'],
+            body1:['Poppin']
         }
 
     },
