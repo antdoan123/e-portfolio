@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
         fontFamily: {
-            body:['Roboto']
+            body:['Dosis']
         }
 
     },

@@ -15,7 +15,7 @@ export default function Home() {
       <body className="text-white bg-[url('/Background_poker.jpg')] pb-12">
         <header className="py-6">
             <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 md:flex lg:px-24 w-full">
-                <div className="text-blue-400 font-body text-3xl lg:text-4xl">ANTHONY.DOAN</div>
+                <div className="text-blue-400 font-title text-3xl lg:text-4xl">ANTHONY.DOAN</div>
                     <div className="mt-2 flex space-x-12 items-center text-xl" id="menu">
                         <div>
                             <Link href="/"><a className="p-4 text-blue-400 hover:font-bold underline">Home</a></Link>
