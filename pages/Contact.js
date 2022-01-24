@@ -13,6 +13,7 @@ export default function Home() {
            duration: 1200,
            once: false,
            mirror: true,
+           disable: 'phone',
         })
     })
   return (

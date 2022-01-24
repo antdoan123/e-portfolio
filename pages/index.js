@@ -16,6 +16,7 @@ export default function Home() {
            duration: 1200,
            easing: 'ease-in-sine',
            mirror: true,
+           disable: 'phone',
         })
     })
 
