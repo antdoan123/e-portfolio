@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { AiOutlineGithub, AiOutlineFilePdf, AiFillLinkedin, AiFillMail, AiOutlineCaretDown} from 'react-icons/ai';
-import Scroll from'../pages/Scroll'
+import Scroll from'../pages/Scroll.js'
 import Aos from 'aos';
 import {useEffect} from 'react';
 import 'aos/dist/aos.css';
@@ -13,7 +13,9 @@ export default function Home() {
     useEffect(() =>
     {
         Aos.init({
-            once: true,
+           duration: 1200,
+           easing: 'ease-in-sine',
+           mirror: true,
         })
     })
 
@@ -27,17 +29,17 @@ export default function Home() {
       <body className="font-body text-white bg-[url('/Background_poker.jpg')] pb-12">
         <header className="py-6">
             <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 md:flex lg:px-24 w-full">
-                <div className="text-blue-400 text-3xl lg:text-4xl" data-aos='fade-right' data-aos-duration='800'>ANTHONY.DOAN</div>
-                    <div className="mt-2 flex space-x-12 items-center text-xl" id="menu" data-aos='fade-left' data-aos-duration='800'>
+                <div className="text-blue-400 text-3xl lg:text-4xl" data-aos='fade-right'>ANTHONY.DOAN</div>
+                    <div className="mt-2 flex space-x-12 items-center text-xl" id="menu" data-aos='fade-left' >
                         <div>
                             <Link href="/"><a className="p-4 text-blue-400 hover:font-bold underline">Home</a></Link>
                             <Link href="/Proj"><a className="p-4 hover:font-bold text-blue-400">Projects</a></Link>
-                            <Link href="/Skills"><a className="p-4 hover:font-bold text-blue-400">Skills</a></Link>
+                            <Link href="/Contact"><a className="p-4 hover:font-bold text-blue-400">Contact</a></Link>
                         </div>
                     </div>
             </div>
             <div className="sm:py-24 md:py-32 text-blue-400 text-xl sm:ml-4 md:ml-8 md:mr-34 lg:mr-92">
-            <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='400'>
+            <div data-aos='fade-down' data-aos-delay='1200'>
                 <div className="continer justify-center items-center mx-auto px-8 sm:px-auto md:px-14 md:flex lg:px-24 lg:flex w-full">
                     <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'/>  
                     <p className="mt-10 ml-2">
@@ -45,7 +47,7 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-4" data-aos='fade-up-right' data-aos-duration='800' data-aos-delay='400'>
+            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-4" data-aos='fade-up-right' data-aos-delay='1200'>
                 <div className="icons">
                     <a href="https://github.com/antdoan123">
                         <AiOutlineGithub size={"36"}/>
@@ -68,12 +70,14 @@ export default function Home() {
                 </div>
             </div>
             </div>
-            <div className="icons flex justify-evenly items-center animate-bounce" data-aos='fade-up-right' data-aos-duration='800' data-aos-delay='400'>
-                <a href="#Scroll">
+            <div className="icons flex justify-evenly items-center animate-bounce">
+                <a href="#tech">
                     <AiOutlineCaretDown size={"36"}/>
                 </a>
             </div>
-            <Scroll />
+            <div className="data-aos='fade-in">
+                <Scroll />
+            </div>
         </header>
        </body>
     </div>
