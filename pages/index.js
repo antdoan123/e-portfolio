@@ -29,7 +29,7 @@ export default function Home() {
       <body className="font-body text-white bg-[url('/Background_poker.jpg')] pb-12 overflow-x:hidden">
         <header className="py-6">
             <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 md:flex lg:px-24 w-full">
-                <div className="text-blue-400 text-3xl lg:text-4xl" data-aos='fade-right'>ANTHONY.DOAN</div>
+                <div className="text-blue-400 text-3xl lg:text-4xl" data-aos='zoom-in-up'>ANTHONY.DOAN</div>
                     <div className="mt-2 flex space-x-12 items-center text-xl" id="menu" data-aos='fade-left' >
                         <div>
                             <Link href="/"><a className="p-4 text-blue-400 hover:font-bold underline">Home</a></Link>
@@ -47,7 +47,7 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-2" data-aos='fade-up-right' data-aos-delay='1200'>
+            <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-4" data-aos='zoom-in-up' data-aos-delay='1200' data-aos-once='true'>
                 <div className="icons">
                     <a href="https://github.com/antdoan123">
                         <AiOutlineGithub size={"36"}/>
