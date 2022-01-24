@@ -2,8 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Aos from 'aos';
+import {useEffect} from 'react';
+import 'aos/dist/aos.css';
 
 export default function Home() {
+    useEffect(() =>
+    {
+        Aos.init({
+            once: true,
+        })
+    })
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,9 +23,9 @@ export default function Home() {
       </Head>
       <body className="font-body text-white bg-[url('/Background_poker.jpg')] pb-12">
         <header className="py-6">
-            <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-                <div className="text-blue-400 sm:text-2xl md:text-3xl lg:text-4xl">ANTHONY.DOAN</div>
-                    <div className="mt-2 flex space-x-12 items-center text-xl" id="menu">
+            <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto px-8 md:px-14 md:flex lg:px-24 w-full">
+                <div className="text-blue-400 text-3xl lg:text-4xl" data-aos='fade-right' data-aos-duration='800'>ANTHONY.DOAN</div>
+                    <div className="mt-2 flex space-x-12 items-center text-xl" id="menu" data-aos='fade-left' data-aos-duration='800'>
                         <div>
                             <Link href="/"><a className="p-4 text-blue-400 hover:font-bold">Home</a></Link>
                             <Link href="/Proj"><a className="p-4 hover:font-bold text-blue-400 underline">Projects</a></Link>
