@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import {SiPython, SiDotnet, SiCplusplus, SiCsharp, SiTailwindcss, SiReact, SiHtml5, SiNextdotjs, SiCss3} from 'react-icons/Si'
+import {SiPython, SiDotnet, SiCplusplus, SiCsharp, SiTailwindcss, SiReact, SiHtml5, SiNextdotjs, SiCss3} from 'react-icons/si'
 import Aos from 'aos';
 import {useEffect} from 'react';
 import 'aos/dist/aos.css';
