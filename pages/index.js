@@ -17,6 +17,7 @@ export default function Home() {
            easing: 'ease-in-sine',
            mirror: true,
            disable: 'phone',
+           once: true, 
         })
     })
 
@@ -50,22 +51,22 @@ export default function Home() {
             </div>
             <div className="socials flex flex-nowrap pt-8 space-x-8 justify-start px-12 md:px-24 mt-4" data-aos='fade-up-right' data-aos-delay='1200' data-aos-once='true'>
                 <div className="icons">
-                    <a href="https://github.com/antdoan123">
+                    <a href="https://github.com/antdoan123" target="_blank" rel="noopener noreferrer">
                         <AiOutlineGithub size={"36"}/>
                     </a>
                 </div>
                 <div className="icons">
-                    <a href="https://www.linkedin.com/in/anthony-doan-9176a21b8/">
+                    <a href="https://www.linkedin.com/in/anthony-doan-9176a21b8/" target="_blank" rel="noopener noreferrer">
                         <AiFillLinkedin size={"36"}/>
                     </a>
                 </div>
                 <div className="icons">
-                    <a href="mailto:antdoan1999@gmail.com">
+                    <a href="mailto:antdoan1999@gmail.com" target="_blank" rel="noopener noreferrer">
                         <AiFillMail size={"36"}/>
                     </a>
                 </div>
                 <div className="icons">
-                    <a href="/Resume.pdf">
+                    <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                         <AiOutlineFilePdf size={"36"}/>
                     </a>
                 </div>

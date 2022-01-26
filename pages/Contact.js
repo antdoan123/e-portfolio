@@ -11,7 +11,7 @@ export default function Home() {
     {
         Aos.init({
            duration: 1200,
-           once: false,
+           once: true,
            mirror: true,
            disable: 'phone',
         })
