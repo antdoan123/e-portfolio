@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 In this project, we are building a static [personal portfolio website](https://github.com/antdoan123/e-portfolio) using NextJS and TailwindCSS. Here is the final product:
 
+![Snippet](https://github.com/antdoan123/e-portfolio/blob/main/WebsiteSnippet.PNG)
 
 ## Getting Started
 
