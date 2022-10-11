@@ -45,9 +45,10 @@ function Portfolio() {
                 Check out some of my works!
             </div>
               <div className="mt-6 grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8" >
-                  {portfolios.map(({tech, title, description, href}) => (
+                  {portfolios.map(({id, tech, title, description, href}) => (
 
                       <div className="border px-8 py-8 rounded-3xl outline outline-1 outline-blue-300">
+                        key={id}
                         <h2 className="text-base font-medium text-blue-300 mb-1">{tech}</h2>
                             <h1 className="text-2xl font-semibold mb-3">{title}</h1>
                             <p className="leading-relaxed mb-3">{description} 

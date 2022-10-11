@@ -55,6 +55,7 @@ const Home = () => {
                     {links.map(({icons, href}) => (
 
                         <a
+                         key={id}
                          href={href}
                          target="_blank" 
                          rel="noopener noreferrer" 
