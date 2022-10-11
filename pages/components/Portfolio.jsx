@@ -48,8 +48,8 @@ function Portfolio() {
                   {portfolios.map(({id, tech, title, description, href}) => (
 
                       <div className="border px-8 py-8 rounded-3xl outline outline-1 outline-blue-300">
-                        key={id}
-                        <h2 className="text-base font-medium text-blue-300 mb-1">{tech}</h2>
+                        
+                        <h2 key={id} className="text-base font-medium text-blue-300 mb-1">{tech}</h2>
                             <h1 className="text-2xl font-semibold mb-3">{title}</h1>
                             <p className="leading-relaxed mb-3">{description} 
                             </p>
