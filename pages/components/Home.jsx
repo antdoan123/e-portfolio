@@ -15,21 +15,21 @@ const Home = () => {
             href: "https://github.com/antdoan123",
         },
         {
-            id: 1,
+            id: 2,
             icons: (
             <AiFillLinkedin size={"36"}/>
             ),
             href: "https://www.linkedin.com/in/anthony-doan-9176a21b8/",
         },
         {
-            id: 1,
+            id: 3,
             icons: (
             <AiFillMail size={"36"}/>
             ),
             href: "mailto:antdoan1999@gmail.com",
         },
         {
-            id: 1,
+            id: 4,
             icons: (
             <AiOutlineFilePdf size={"36"}/>
             ),
@@ -52,7 +52,7 @@ const Home = () => {
                 </p>
                 <div className="flex flex-nowrap pt-4 space-x-8 justify-start px-12 md:px-24 mt-4 text-gray-500">
 
-                    {links.map(({icons, href}) => (
+                    {links.map(({id, icons, href}) => (
                         <li key={id}>
                         <a
                          
