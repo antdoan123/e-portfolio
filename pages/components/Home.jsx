@@ -53,7 +53,7 @@ const Home = () => {
                 <div className="flex flex-nowrap pt-4 space-x-8 justify-start px-12 md:px-24 mt-4 text-gray-500">
 
                     {links.map(({id, icons, href}) => (
-                        <li key={id}>
+                        <div key={id}>
                         <a
                          
                          href={href}
@@ -63,7 +63,7 @@ const Home = () => {
                         >
                             {icons}
                         </a>
-                        </li>
+                        </div>
 
                     ))}
                 </div>
