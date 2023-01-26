@@ -3,6 +3,8 @@ import '../styles/globals.css'
 import NavBar from './components/NavBar';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function MyApp() {
   return (
@@ -11,6 +13,8 @@ function MyApp() {
       <Home />
       <Portfolio/>
       <Skills/>
+      <Contact/>
+      <Footer/>
     </div>
   );
   

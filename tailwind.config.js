@@ -20,6 +20,11 @@ module.exports = {
       animation: {
         'waving-hand': 'wave 2s linear infinite',
       },
+      variants: {
+        extend: {
+            display: ["group-hover"],
+        },
+    },
     },
   },
   plugins: [],

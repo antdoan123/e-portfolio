@@ -8,7 +8,7 @@ function Portfolio() {
           tech: "C#/ .NET/ LocalDB",
           title: "Restaraunt Locator",
           description: "A full-stack desktop application that allows users to find a nearby resteruant based on their preferences using Yelp's API. Users will also be prompt to create an account which allows them to have their own unique profile and each account is stored in a local databased. The users will also have accessed to their own dashboard.",
-          href: "https://github.com/antdoan123",
+          href: "https://github.com/antdoan123/Restaruant-Locator",
         },
         {
           id: 2,
@@ -26,10 +26,17 @@ function Portfolio() {
         },
         {
           id: 4,
+          tech: "Android Studio / XML / Java",
+          title: "TODOLU Android Application",
+          description: "Worked with a team of 4 to create an Android mobile application that allows users to interact with friends and followers in the form of productive social media. Users will be able to post daily tasks lists, add events and meetings to their calendars, listen to music, play with study pets, and share their progress on this app.",
+          href: "https://github.com/gurmehrkaur/todolu",
+        },
+        {
+          id: 5,
           tech: "TailwindCSS / Next.JS",
           title: "This Website",
           description: "This website was build using TailwindCSS and Next.JS. Flexbox are used to create cards that stores informations. Basic TailwindCSS animation are used to make the site more responsive. Next.JS is used to create a server-side rendering website as well as providing better structures for the codes.",
-          href: "https://github.com/antdoan123",
+          href: "https://github.com/antdoan123/e-portfolio",
         },
       ];
 
@@ -53,12 +60,12 @@ function Portfolio() {
                             <h1 className="text-2xl font-semibold mb-3">{title}</h1>
                             <p className="leading-relaxed mb-3">{description} 
                             </p>
-                          <div className='flex justify-end hover:text-blue-300 cursor-pointer space-x-2 space-y-1'>
+                          <a href={href} target="_blank" rel="noopener noreferrer" className='flex justify-end hover:text-blue-300 cursor-pointer space-x-2 space-y-1'>
 
                               <AiOutlineGithub size={'30'}/> 
                               <p>View Code</p>
 
-                          </div>
+                          </a>
                       </div>
                   ))}
 
