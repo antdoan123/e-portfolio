@@ -11,7 +11,7 @@ function Skills() {
                 <SiHtml5 size={'36'} color={'orange'}/>
             ),
             name: 'HTML5',
-            style: 'orange-500',
+            style: 'shadow-orange-500',
         },
         {
             id:2,
@@ -19,7 +19,7 @@ function Skills() {
                 <SiCss3 size={'36'} color={'#000FFF'}/>
             ),
             name: 'CSS3',
-            style: 'blue-500',
+            style: 'shadow-blue-500',
         },
         {
             id:3,
@@ -27,7 +27,7 @@ function Skills() {
                 <SiTailwindcss size={'36'} color={'#00FFFF'}/>
             ),
             name: 'TailwindCSS',
-            style: 'sky-500',
+            style: 'shadow-sky-500',
         },
         {
             id:4,
@@ -35,7 +35,7 @@ function Skills() {
                 <SiNextdotjs size={'36'}/>
             ),
             name: 'NextJS',
-            style: 'white',
+            style: 'shadow-white',
         },
         {
             id:5,
@@ -43,7 +43,7 @@ function Skills() {
                 <SiReact size={'36'} color={'#00DFFF'}/>
             ),
             name: 'React',
-            style: 'blue-600',
+            style: 'shadow-blue-600',
         },
         {
             id:6,
@@ -51,7 +51,7 @@ function Skills() {
                 <SiCplusplus size={'36'} color={'#004FFF'}/>
             ),
             name: 'C++',
-            style: 'blue-500',
+            style: 'shadow-blue-500',
         },
         {
             id:7,
@@ -59,7 +59,7 @@ function Skills() {
                 <SiCsharp size={'36'} color={'violet'}/>
             ),
             name: 'C#',
-            style: 'purple-500',
+            style: 'shadow-purple-500',
         },
         {
             id:8,
@@ -67,7 +67,7 @@ function Skills() {
                 <SiJavascript size={'36'}/>
             ),
             name: 'JavaScript',
-            style: 'yellow-500',
+            style: 'shadow-yellow-500',
         },
         {
             id:9,
@@ -75,7 +75,7 @@ function Skills() {
                 <SiJava size={'36'} color={'orange'}/>
             ),
             name: 'Java',
-            style: 'orange-500',
+            style: 'shadow-orange-500',
         },
     ]
 
@@ -94,7 +94,7 @@ function Skills() {
                 
                 {logo.map(({id, icons, name, style}) => (
                         <div key={id} className="invisible hover:visible hover:scale-105 duration-100">
-                            <span className={`shadow-md shadow-${style} visible inline-block outline outline-1 outline-blue-300 p-8 rounded-full `}>
+                            <span className={`shadow-md ${style} visible inline-block outline outline-1 outline-blue-300 p-8 rounded-full `}>
                                 {icons}
                             </span>   
                             <p className='font-bold mt-4'>
