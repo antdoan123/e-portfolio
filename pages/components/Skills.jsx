@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaReact } from 'react-icons/fa';
-import { SiCss3, SiHtml5, SiTailwindcss, SiNextdotjs, SiReact, SiCplusplus, SiCsharp, SiJavascript, SiJava} from "react-icons/Si";
+import { SiCss3, SiHtml5, SiTailwindcss, SiNextdotjs, SiReact, SiCplusplus, SiCsharp, SiJavascript, SiJava} from "react-icons/si";
 
 function Skills() {
 
