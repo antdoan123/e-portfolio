@@ -13,6 +13,10 @@ function MyApp() {
     <Head>
       <title>{"Anthony Doan Website"}</title>
       <meta name="description" content="Discover the portfolio of Anthony Doan, a highly skilled software developer. View his past projects and get in touch to bring your next project to life." />
+      <meta
+          name="keywords"
+          content="Anthony Doan, Anthony, Doan, antdoan, github, developer, cpp, software"
+        />
       <link rel='icon' href='./logo.png'></link>
     </Head>
       <body>
