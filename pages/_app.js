@@ -8,14 +8,21 @@ import Footer from './components/Footer';
 
 function MyApp() {
   return (
-    <div>
-      <NavBar/>
-      <Home />
-      <Portfolio/>
-      <Skills/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <html>
+    <Head>
+      <title>{"Anthony Doan Website"}</title>
+      <meta name="description" content="Discover the portfolio of Anthony Doan, a highly skilled software developer. View his past projects and get in touch to bring your next project to life." />
+      <link rel='icon' href='./logo.png'></link>
+    </Head>
+      <body>
+        <NavBar/>
+        <Home />
+        <Portfolio/>
+        <Skills/>
+        <Contact/>
+        <Footer/>
+      </body>
+    </html>
   );
   
 }
