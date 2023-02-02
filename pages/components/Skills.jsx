@@ -94,7 +94,7 @@ function Skills() {
                 
                 {logo.map(({id, icons, name, style}) => (
                         <div key={id} className="invisible hover:visible hover:scale-105 duration-100">
-                            <span className={`shadow-md ${style} visible inline-block outline outline-1 outline-blue-300 p-8 rounded-full `}>
+                            <span className={`shadow-md ${style} visible inline-block ring ring-1 ring-blue-300 p-8 rounded-full `}>
                                 {icons}
                             </span>   
                             <p className='font-bold mt-4'>
