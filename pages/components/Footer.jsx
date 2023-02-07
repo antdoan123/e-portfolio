@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-black text-white text-center p-4'>
-        Made by Anthony Doan
+        {"Built with ❤️ by Anthony Doan"}
     </footer>
   )
 }

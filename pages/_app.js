@@ -12,7 +12,7 @@ function MyApp() {
   return (
     <main>
     <Head>
-      <title>{"Anthony Doan Website"}</title>
+      <title>{"Anthony Doan"}</title>
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta name="description" content="Discover the portfolio of Anthony Doan, a highly skilled software developer. View his past projects and get in touch to bring your next project to life." />
       <meta
