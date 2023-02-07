@@ -42,19 +42,19 @@ function Portfolio() {
 
   return (
     <div name="portfolio" className='w-full bg-gradient-to-b from-gray-800 to-black text-white '>
-        <div className="max-w-screen-xlg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="max-w-screen-4xl p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className='pb-8'>
                 <h2 className="text-4xl font-bold inline border-b-2 border-blue-200">
                     Portfolio
                 </h2>
             </div>
-            <div>
+            <div className='text-xl'>
                 Check out some of my works!
             </div>
               <div className="mt-6 grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8" >
                   {portfolios.map( ({id, tech, title, description, href}) => (
 
-                      <div key={id} className="ring px-8 py-8 rounded-3xl outline outline-1 outline-blue-300">
+                      <div key={id} className="ring px-8 py-8 rounded-3xl ring-blue-300">
 
                         <h2 className="text-base font-medium text-blue-300 mb-1">{tech}</h2>
                             <h1 className="text-2xl font-semibold mb-3">{title}</h1>

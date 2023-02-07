@@ -41,7 +41,7 @@ const Home = () => {
 
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:text-row'>
+        <div className='max-w-screen-4xl mx-auto flex flex-col items-center justify-center h-full px-4 md:text-row'>
         <AnimatePresence>
           <motion.div
             initial={{ y: 10, opacity: 0 }}
@@ -49,11 +49,11 @@ const Home = () => {
             transition={{ duration: 1 }}
           >
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-7xl md:text-5xl font-bold text-white '>Nice to Meet You👋
+                <h2 className='text-7xl md:text-5xl font-bold text-white '>Hello World👋
                 </h2>
 
                 <p className='text-gray-500 py-4 max-w-md mt-6'>
-                    My name is Anthony Doan and I am a full-stack developer graduating with a computer engineering degree in Dec/2022. Currently,
+                    My name is Anthony Doan and I am a full-stack developer with a bachelor of science in computer engineering. Currently,
                     I love working on web application using technologies like React, Tailwind, Next JS. In my free time,
                     I love cooking, playing basketball, and playing valorant.
                 </p>

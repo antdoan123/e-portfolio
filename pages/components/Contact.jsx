@@ -33,14 +33,11 @@ const Contact = () => {
 
   return (
     <div name="Contact" className='h-screen w-full bg-gradient-to-b from-gray-800  to-black '>
-        <div className="max-w-screen-xlg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
+        <div className="max-w-screen-4xl p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
             <div className='pb-8'>
                 <h2 className="text-4xl font-bold inline border-b-2 border-blue-200">
                     Contact Me!
                 </h2>
-            </div>
-            <div>
-                Get in touch with me!
             </div>
             
             <div>
