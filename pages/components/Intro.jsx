@@ -4,7 +4,7 @@ import { FaMehBlank } from 'react-icons/fa';
 import { Link } from 'react-scroll'
 import { AnimatePresence, motion } from "framer-motion";
 
-const Home = () => {
+const Intro = () => {
 
 
         const links = [
@@ -34,7 +34,7 @@ const Home = () => {
             icons: (
             <AiOutlineFilePdf size={"36"}/>
             ),
-            href: "/resume.pdf",
+            href: "/Anthony Doan Resume.pdf",
         },
     ]
     
@@ -48,13 +48,13 @@ const Home = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <div className='flex flex-col justify-center h-full'>
+            <div className='flex flex-col justify-center h-full text-gray-500'>
                 <h2 className='text-7xl md:text-5xl font-bold text-white '>Hello World👋
                 </h2>
 
-                <p className='text-gray-500 py-4 max-w-md mt-6'>
+                <p className=' py-4 max-w-md mt-6'>
                     My name is Anthony Doan and I am a full-stack developer with a bachelor of science in computer engineering. Currently,
-                    I love working on web application using technologies like React, Tailwind, Next JS. In my free time,
+                    I am a freelancer in web development. In my free time,
                     I love cooking, playing basketball, and playing valorant.
                 </p>
                 <div className="flex flex-nowrap pt-4 space-x-8 justify-start px-12 md:px-24 mt-4 text-gray-500">
@@ -82,4 +82,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Intro

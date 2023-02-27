@@ -1,4 +1,3 @@
-import Home from './components/Home';
 import '../styles/globals.css'
 import NavBar from './components/NavBar';
 import Portfolio from './components/Portfolio';
@@ -8,7 +7,8 @@ import Footer from './components/Footer';
 import Head from 'next/head';
 
 
-function MyApp() {
+const MyApp = ({ Component, pageProps }) => {
+
   return (
     <main>
     <Head>
@@ -24,10 +24,7 @@ function MyApp() {
     </Head>
       <div>
         <NavBar/>
-        <Home />
-        <Portfolio/>
-        <Skills/>
-        <Contact/>
+        <Component {...pageProps} />
         <Footer/>
       </div>
     </main>
