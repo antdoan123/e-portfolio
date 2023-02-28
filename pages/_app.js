@@ -23,9 +23,7 @@ const MyApp = ({ Component, pageProps }) => {
       <link rel='icon' href='./logo.png'></link>
     </Head>
       <div>
-        <NavBar/>
         <Component {...pageProps} />
-        <Footer/>
       </div>
     </main>
   );

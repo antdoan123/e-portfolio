@@ -5,6 +5,8 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Intro from './components/Intro';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -19,10 +21,12 @@ export default function Home() {
         <link rel='icon' href='./logo.png'></link>
       </Head>
       <main>
+        <NavBar></NavBar>
         <Intro></Intro>
         <Portfolio/>
         <Skills/>
         <Contact/>
+        <Footer/>
       </main>
 
     </>
