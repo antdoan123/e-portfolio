@@ -5,11 +5,10 @@ import { useDrag } from 'react-use-gesture'
 
 
 const cards = [
-  { id: 1, title: 'Card 1', color: '#F44336' },
-  { id: 2, title: 'Card 2', color: '#E91E63' },
-  { id: 3, title: 'Card 3', color: '#9C27B0' },
-  { id: 4, title: 'Card 4', color: '#3F51B5' },
-  { id: 5, title: 'Hi My Name is Anthony', color: '#2196F3' },
+  { id: 1, title: 'Contact Me', color: '#E91E63' },
+  { id: 2, title: 'My Projects', color: '#9C27B0' },
+  { id: 3, title: 'About me', color: '#3F51B5' },
+  { id: 4, title: 'Welcome to Anthony Website', links: "/", description: 'Swipe left to continue', color: '#2196F3' },
 ]
 
 const to = (i) => ({
@@ -54,19 +53,21 @@ function Freelancing() {
       }, 600)
   })
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className=''>
 
       {props.map(({ x, y, rot, scale }, i) => (
         <animated.div className="absolute inset-0 flex items-center justify-center " key={cards[i].id} style={{ x, y }}>
           <animated.div
             {...bind(i)}
-            className=" w-[200px] h-[300px] rounded-lg shadow-lg flex items-center justify-center "
+            className=" w-[200px] h-[300px] p-4 rounded-lg shadow-lg "
             style={{
               transform: trans(rot, scale),
               backgroundImage: `linear-gradient(135deg, ${cards[i].color} 0%, #ffffff 100%)`,
             }}
           >
-            <div className="text-lg font-bold text-gray-800 text-center">{cards[i].title}</div>
+            <div className="flex items-center justify-center text-xl font-bold text-black">{cards[i].title}</div>
+            <div className="flex items-center justify-center text-lg font-bold text-gray-500 text-center mt-2">{cards[i].description}</div>
+            <a href={cards[i].links} className="flex items-end justify-end">View More</a>
           </animated.div>
         </animated.div>
       ))}
