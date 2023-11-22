@@ -34,7 +34,7 @@ const Intro = () => {
             icons: (
             <AiOutlineFilePdf size={"36"}/>
             ),
-            href: "/Anthony Doan Resume.pdf",
+            href: "/anthony-doan-resume.pdf",
         },
     ]
     

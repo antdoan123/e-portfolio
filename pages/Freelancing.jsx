@@ -53,20 +53,20 @@ function Freelancing() {
       }, 600)
   })
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
 
       {props.map(({ x, y, rot, scale }, i) => (
-        <animated.div className="absolute inset-0 flex items-center justify-center " key={cards[i].id} style={{ x, y }}>
+        <animated.div className="absolute inset-0 flex items-center justify-center" key={cards[i].id} style={{ x, y }}>
           <animated.div
             {...bind(i)}
-            className=" w-[200px] h-[300px] p-4 rounded-lg shadow-lg "
+            className=" w-[200px] h-[300px] lg:w-[300px] lg:h-[500px] p-4 lg:p-8 rounded-lg "
             style={{
               transform: trans(rot, scale),
               backgroundImage: `linear-gradient(135deg, ${cards[i].color} 0%, #ffffff 100%)`,
             }}
           >
-            <div className="flex items-center justify-center text-xl font-bold text-black">{cards[i].title}</div>
-            <div className="flex items-center justify-center text-lg font-bold text-gray-500 text-center mt-2">{cards[i].description}</div>
+            <div className="flex items-center justify-center text-xl lg:text-4xl text-center font-bold text-black">{cards[i].title}</div>
+            <div className=" text-lg font-bold text-gray-500 text-center mt-2">{cards[i].description}</div>
             <a href={cards[i].links} className="flex items-end justify-end">View More</a>
           </animated.div>
         </animated.div>

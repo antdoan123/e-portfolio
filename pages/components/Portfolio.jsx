@@ -33,6 +33,13 @@ function Portfolio() {
         },
         {
           id: 5,
+          tech: "React.js, Next.js, TailwindCSS",
+          title: "Web-based Card Game",
+          description: "A web-based card game that contains various themed decks. Created using tailwindCSS and various open=source libraries like HeadlesUI and Framer to create a smooth and beautiful user interface. Also. utilized React's context hook to store all data client-side to help reduce user set-up time while keeping operational overhead low. ",
+          href: "https://www.drunkies.co/",
+        },
+        {
+          id: 6,
           tech: "TailwindCSS / Next.JS",
           title: "This Website",
           description: "This website was build using TailwindCSS and Next.JS. Flexbox are used to create cards that stores informations. Basic TailwindCSS animation are used to make the site more responsive. Next.JS is used to create a server-side rendering website as well as providing better structures for the codes.",
